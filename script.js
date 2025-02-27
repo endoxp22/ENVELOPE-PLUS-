@@ -1,0 +1,1 @@
+document.getElementById("toggleButton").addEventListener("click",function(){let e=document.getElementById("envelope");e.classList.contains("open")?(e.classList.remove("open"),this.textContent="Abrir Envelope"):(e.classList.add("open"),this.textContent="Fechar Envelope")});
